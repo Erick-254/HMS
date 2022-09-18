@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta name="keywords" content="HOSPITAL,HOSPITAL.COM,HOSPITAL WEBSITE, MEDICAN">
-	<meta name="description" content="best hospital website ">
+	<meta name="description" content=" best hospital website">
 	<meta name="author" content="hospital.com">
 	<title>HMS</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
@@ -42,25 +42,38 @@
 <section>
 	<div class="w-80">
      <div class="form-box">
-     	<h1>Contact Us</h1>
+     	<h1>User Registration Page</h1>
      	<hr>
      	<form>
-     		<label for="fullname"><b>Your name :</b></label><br/>
-				<input type="text" name="name" id="fullname" placeholder="Enter Fullname">
+				<label for="name"><b>Name :</b></label><br/>
+				<input type="text" name="name" id="name" />
 				<br/><br/>
 
-				<label for="email"><b>Email :</b></label>
+				<label for="email"><b>Email :</b></label><br/>
+				<input type="email" name="email" id="email" />
+				<br/><br/>
+
+				<label for="mobile"><b>Mobile :</b></label><br/>
+				<input type="number" name="mobile" id="mobile" />
+				<br/><br/>
+
+				<label for="username"><b>Username :</b></label><br/>
+				<input type="text" name="username" id="username" />
+				<br/><br/>
+
+				<label for="password"><b>Password :</b></label>
 				<br/>
-				<input type="email" name="email" id="email" placeholder="Enter Your Email">
+				<input type="password" name="password" id="password" />
 				<br/><br/>
 
-				<label for="message"><b>Your message :</b></label>
+				<label for="re-password"><b>Confirm Password :</b></label>
 				<br/>
-				<textarea id="message" placeholder="Enter Your Message"></textarea>
+				<input type="password" name="re-password" id="re-password" />
 				<br/><br/>
 
-				<button type="submit" id="contact-btn">Send Email</button>
-     	</form>
+				<button type="submit" id="register-btn">Submit</button>
+				
+			</form>
      </div>
     </div>
 </section>
